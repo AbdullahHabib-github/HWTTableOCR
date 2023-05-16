@@ -28,7 +28,13 @@ At the end, each of these words are combined in a Pandas <code>DataFrame</code> 
 
 ## Working (Model)
 The model training files were taken from the [SimpleHTR](https://github.com/githubharald/SimpleHTR) repository. This Repository allows you to train files using 3 different algorithms. I trained my models on each one of them and have uploaded the model files generated through all 3 algorithm. (you can find them in the HRT Recognition folder).
-I did a detailed comparison and following are my results when i compared the 3 different algorithms.
+I did a detailed compariso. Please find the comparison graphs at the end of the <code>README.md</code> file.
+
+## Research Report
+Please find the Research Report at the following link:
+https://www.overleaf.com/read/qvxgnbqccdsj
+## Comparison
+Please find the comparison below:
 
 ### Word Accuracy Comparison
 In this case, Word Beam Search decoder works the best , you can find this [here](https://github.com/githubharald/CTCWordBeamSearch)
@@ -44,7 +50,4 @@ Here, [Word Beam Search decoder](https://github.com/githubharald/CTCWordBeamSear
 [Word Beam Search decoder](https://github.com/githubharald/CTCWordBeamSearch) is proven to be the best in this case too and the rest are almost the same. 
 ![Chr_Err_Rate](https://github.com/AbdullahHabib-github/HWTTableOCR/assets/91840456/795d37ba-7c95-4a71-834b-b9185408936a)
 
-## Research Report
-Please find the Research Report at the link mentioned below:
-[Report](https://www.overleaf.com/read/qvxgnbqccdsj)
 
